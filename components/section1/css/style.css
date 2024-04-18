@@ -1,0 +1,38 @@
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 70px);
+  margin-top: 70px;
+  background-color: #e0ffc9;
+  background-image: url("../../../assets/manplanting.png");
+  background-size: cover;
+  background-position: bottom;
+}
+.container1 .qrCode-area {
+  width: 300px;
+  height: 300px;
+  margin: 50px 10px 20px 80px;
+  background: rgba(255, 255, 255, 0);
+  background-image: url("../../../assets/qrcode2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.container1 .text-area {
+  width: 500px;
+  height: 250px;
+  margin: 50px 20px 20px 50px;
+}
+.container1 .text-area .text1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #36241A;
+}
+.container1 .text-area .text2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(54, 36, 26, 0.6705882353);
+}
+
+/*# sourceMappingURL=style.css.map */
