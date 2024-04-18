@@ -5,7 +5,7 @@ export function createNavBar() {
 
     const logo = createEl('div', null, null, 'logo')
     const logoImg = createEl('img', null, null, 'logo-img')
-    logoImg.src = '/assets/forsolareslogo.png'
+    logoImg.src = 'assets/forsolareslogo.png'
     const logoName = createEl('h1', 'Forsolares', null, 'logo-name')
 
     const btnGrid = createEl('ul', null, null, 'btnGrid')
